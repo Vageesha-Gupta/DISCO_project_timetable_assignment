@@ -159,7 +159,7 @@ void assignCourses(vector<Professor>& professors, vector<Course>& courses) {
     shuffle(professors.begin(), professors.end(), g);
     
     int c =0;
-    // while(!checkCDCSat(courses)){// TO DO, CHECK FOR INFINITE
+    while(!checkCDCSat(courses)){// TO DO, CHECK FOR INFINITE
     // Loop through each professor
         for (auto& prof : professors) {
             // Iterate through professor's preference list while category not satisfied
