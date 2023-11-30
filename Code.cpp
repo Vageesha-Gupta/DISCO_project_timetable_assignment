@@ -49,6 +49,8 @@ bool checkpref(Professor p,Course c){
     }
     return false;
 }
+
+//----------------------------------------------------------------------------------------
 // Function to read professors' details from the input file
 vector<Professor> readProfessorsFromFile( vector<Course>& courses) {
    
@@ -149,7 +151,7 @@ bool checkCDCSat(vector<Course>& courses){
    return done;
 }
 
-
+//-----------------------------------------------------------------------------------------
 // Function to assign courses to professors based on preferences and constraints
 void assignCourses(vector<Professor>& professors, vector<Course>& courses) {
     // Randomize professors' preference lists to diversify assignment possibilities
@@ -202,10 +204,11 @@ void assignCourses(vector<Professor>& professors, vector<Course>& courses) {
                 }
             }
         }
-        // c++;
-        // if(c>10){
-        //     break;
-        // }
+        c++;
+        if(c>1000){
+            break;
+        }
+    }
     
 
     for (auto& prof : professors) {
@@ -236,6 +239,7 @@ void assignCourses(vector<Professor>& professors, vector<Course>& courses) {
             }
         }
     }
+
 }
 
 // Function to print the final assignment of courses to professors
