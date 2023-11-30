@@ -215,163 +215,163 @@ HDC2 added
 HDC3 added 
 FDE1 added 
 HDE1 added 
-Prof12 is assigned courses: FDC7 
-Prof2 is assigned courses: 
-Prof9 is assigned courses: FDC4 
 Prof11 is assigned courses: FDC6 
-Prof13 is assigned courses: FDC8 
-Prof30 is assigned courses: FDC5 
-Prof4 is assigned courses: 
-Prof5 is assigned courses: 
-Prof1 is assigned courses: 
-Prof15 is assigned courses: FDC10 
-Prof24 is assigned courses: FDC19 
-Prof26 is assigned courses: HDC2 
-Prof17 is assigned courses: FDC12 
-Prof28 is assigned courses: HDC4 
-Prof3 is assigned courses: 
-Prof27 is assigned courses: HDC3 
-Prof25 is assigned courses: HDC1 
-Prof18 is assigned courses: FDC13 
-Prof14 is assigned courses: FDC9 
-Prof16 is assigned courses: FDC11 
 Prof23 is assigned courses: FDC18 
-Prof29 is assigned courses: FDC18 
-Prof6 is assigned courses: FDC1 
-Prof10 is assigned courses: FDC5 
-Prof20 is assigned courses: FDC15 
-Prof22 is assigned courses: FDC17 
-Prof19 is assigned courses: FDC14 
-Prof8 is assigned courses: FDC3 
-Prof21 is assigned courses: FDC16 
-Prof7 is assigned courses: FDC2 
-
-
-Prof25 is assigned courses: HDC1 
-Prof1 is assigned courses: 
-Prof29 is assigned courses: FDC18 
-Prof5 is assigned courses: 
+Prof12 is assigned courses: FDC7 
 Prof13 is assigned courses: FDC8 
-Prof2 is assigned courses: 
-Prof22 is assigned courses: FDC17 
-Prof30 is assigned courses: FDC5 
+Prof6 is assigned courses: FDC1 
+Prof1 is assigned courses: 
+Prof27 is assigned courses: HDC3 
+Prof4 is assigned courses: 
+Prof7 is assigned courses: FDC2 
+Prof17 is assigned courses: FDC12 
 Prof20 is assigned courses: FDC15 
 Prof16 is assigned courses: FDC11 
-Prof3 is assigned courses: 
-Prof9 is assigned courses: FDC4 
-Prof10 is assigned courses: FDC5 
-Prof27 is assigned courses: HDC3 
-Prof7 is assigned courses: FDC2 
-Prof12 is assigned courses: FDC7 
-Prof11 is assigned courses: FDC6 
 Prof15 is assigned courses: FDC10 
-Prof26 is assigned courses: HDC2 
-Prof4 is assigned courses: 
-Prof8 is assigned courses: FDC3 
-Prof17 is assigned courses: FDC12 
-Prof18 is assigned courses: FDC13 
-Prof19 is assigned courses: FDC14 
-Prof23 is assigned courses: FDC18 
-Prof21 is assigned courses: FDC16 
-Prof24 is assigned courses: FDC19 
-Prof14 is assigned courses: FDC9 
-Prof6 is assigned courses: FDC1 
-Prof28 is assigned courses: HDC4 
-
-
-Prof20 is assigned courses: FDC15 
-Prof7 is assigned courses: FDC2 
-Prof14 is assigned courses: FDC9 
-Prof27 is assigned courses: HDC3 
-Prof12 is assigned courses: FDC7 
-Prof9 is assigned courses: FDC4 
-Prof16 is assigned courses: FDC11 
-Prof2 is assigned courses: 
-Prof26 is assigned courses: HDC2 
-Prof24 is assigned courses: FDC19 
-Prof30 is assigned courses: FDC5 
-Prof1 is assigned courses: 
-Prof28 is assigned courses: HDC4 
-Prof11 is assigned courses: FDC6 
-Prof19 is assigned courses: FDC14 
-Prof8 is assigned courses: FDC3 
-Prof15 is assigned courses: FDC10 
-Prof17 is assigned courses: FDC12 
-Prof3 is assigned courses: 
-Prof22 is assigned courses: FDC17 
 Prof25 is assigned courses: HDC1 
-Prof23 is assigned courses: FDC18 
-Prof4 is assigned courses: 
-Prof21 is assigned courses: FDC16 
-Prof18 is assigned courses: FDC13 
-Prof6 is assigned courses: FDC1 
-Prof5 is assigned courses: 
-Prof10 is assigned courses: FDC5 
-Prof13 is assigned courses: FDC8 
-Prof29 is assigned courses: FDC18 
-
-
-Prof7 is assigned courses: FDC2 
-Prof15 is assigned courses: FDC10 
-Prof4 is assigned courses: 
+Prof2 is assigned courses: 
 Prof28 is assigned courses: HDC4 
-Prof13 is assigned courses: FDC8 
 Prof18 is assigned courses: FDC13 
-Prof29 is assigned courses: FDC18 
-Prof17 is assigned courses: FDC12 
-Prof27 is assigned courses: HDC3 
-Prof24 is assigned courses: FDC19 
-Prof6 is assigned courses: FDC1 
-Prof12 is assigned courses: FDC7 
-Prof23 is assigned courses: FDC18 
-Prof9 is assigned courses: FDC4 
 Prof26 is assigned courses: HDC2 
-Prof20 is assigned courses: FDC15 
-Prof5 is assigned courses: 
+Prof30 is assigned courses: FDC5 
+Prof3 is assigned courses: 
+Prof19 is assigned courses: FDC14 
+Prof24 is assigned courses: FDC19 
 Prof10 is assigned courses: FDC5 
-Prof22 is assigned courses: FDC17 
+Prof5 is assigned courses: 
 Prof21 is assigned courses: FDC16 
+Prof22 is assigned courses: FDC17 
+Prof8 is assigned courses: FDC3 
+Prof29 is assigned courses: FDC18 
+Prof14 is assigned courses: FDC9 
+Prof9 is assigned courses: FDC4 
+
+
+Prof28 is assigned courses: HDC4 
+Prof6 is assigned courses: FDC1 
+Prof10 is assigned courses: FDC5 
 Prof16 is assigned courses: FDC11 
+Prof5 is assigned courses: 
+Prof4 is assigned courses: 
+Prof22 is assigned courses: FDC17 
+Prof20 is assigned courses: FDC15 
+Prof12 is assigned courses: FDC7 
+Prof18 is assigned courses: FDC13 
+Prof1 is assigned courses: 
+Prof17 is assigned courses: FDC12 
+Prof9 is assigned courses: FDC4 
+Prof11 is assigned courses: FDC6 
+Prof7 is assigned courses: FDC2 
+Prof27 is assigned courses: HDC3 
+Prof26 is assigned courses: HDC2 
+Prof30 is assigned courses: FDC5 
+Prof14 is assigned courses: FDC9 
+Prof25 is assigned courses: HDC1 
+Prof15 is assigned courses: FDC10 
+Prof13 is assigned courses: FDC8 
+Prof24 is assigned courses: FDC19 
+Prof23 is assigned courses: FDC18 
+Prof19 is assigned courses: FDC14 
+Prof3 is assigned courses: 
+Prof29 is assigned courses: FDC18 
+Prof2 is assigned courses: 
+Prof21 is assigned courses: FDC16 
+Prof8 is assigned courses: FDC3 
+
+
+Prof21 is assigned courses: FDC16 
 Prof11 is assigned courses: FDC6 
 Prof2 is assigned courses: 
-Prof19 is assigned courses: FDC14 
-Prof1 is assigned courses: 
-Prof30 is assigned courses: FDC5 
-Prof25 is assigned courses: HDC1 
-Prof14 is assigned courses: FDC9 
-Prof3 is assigned courses: 
+Prof17 is assigned courses: FDC12 
+Prof28 is assigned courses: HDC4 
 Prof8 is assigned courses: FDC3 
+Prof20 is assigned courses: FDC15 
+Prof15 is assigned courses: FDC10 
+Prof23 is assigned courses: FDC18 
+Prof9 is assigned courses: FDC4 
+Prof29 is assigned courses: FDC18 
+Prof26 is assigned courses: HDC2 
+Prof24 is assigned courses: FDC19 
+Prof19 is assigned courses: FDC14 
+Prof3 is assigned courses: 
+Prof12 is assigned courses: FDC7 
+Prof6 is assigned courses: FDC1 
+Prof14 is assigned courses: FDC9 
+Prof7 is assigned courses: FDC2 
+Prof16 is assigned courses: FDC11 
+Prof5 is assigned courses: 
+Prof25 is assigned courses: HDC1 
+Prof4 is assigned courses: 
+Prof18 is assigned courses: FDC13 
+Prof30 is assigned courses: FDC5 
+Prof27 is assigned courses: HDC3 
+Prof10 is assigned courses: FDC5 
+Prof13 is assigned courses: FDC8 
+Prof22 is assigned courses: FDC17 
+Prof1 is assigned courses: 
 
 
 Prof8 is assigned courses: FDC3 
 Prof24 is assigned courses: FDC19 
-Prof15 is assigned courses: FDC10 
-Prof10 is assigned courses: FDC5 
-Prof13 is assigned courses: FDC8 
-Prof26 is assigned courses: HDC2 
-Prof11 is assigned courses: FDC6 
-Prof3 is assigned courses: 
-Prof29 is assigned courses: FDC18 
-Prof7 is assigned courses: FDC2 
-Prof30 is assigned courses: FDC5 
-Prof28 is assigned courses: HDC4 
-Prof9 is assigned courses: FDC4 
-Prof16 is assigned courses: FDC11 
-Prof19 is assigned courses: FDC14 
-Prof23 is assigned courses: FDC18 
-Prof20 is assigned courses: FDC15 
-Prof1 is assigned courses: 
-Prof12 is assigned courses: FDC7 
-Prof18 is assigned courses: FDC13 
-Prof25 is assigned courses: HDC1 
-Prof22 is assigned courses: FDC17 
-Prof5 is assigned courses: 
-Prof6 is assigned courses: FDC1 
-Prof14 is assigned courses: FDC9 
-Prof17 is assigned courses: FDC12 
-Prof4 is assigned courses: 
-Prof27 is assigned courses: HDC3 
 Prof2 is assigned courses: 
+Prof17 is assigned courses: FDC12 
+Prof5 is assigned courses: 
+Prof15 is assigned courses: FDC10 
+Prof22 is assigned courses: FDC17 
+Prof4 is assigned courses: 
+Prof20 is assigned courses: FDC15 
 Prof21 is assigned courses: FDC16 
+Prof6 is assigned courses: FDC1 
+Prof1 is assigned courses: 
+Prof25 is assigned courses: HDC1 
+Prof29 is assigned courses: FDC18 
+Prof26 is assigned courses: HDC2 
+Prof18 is assigned courses: FDC13 
+Prof11 is assigned courses: FDC6 
+Prof23 is assigned courses: FDC18 
+Prof12 is assigned courses: FDC7 
+Prof13 is assigned courses: FDC8 
+Prof7 is assigned courses: FDC2 
+Prof10 is assigned courses: FDC5 
+Prof16 is assigned courses: FDC11 
+Prof3 is assigned courses: 
+Prof14 is assigned courses: FDC9 
+Prof9 is assigned courses: FDC4 
+Prof19 is assigned courses: FDC14 
+Prof28 is assigned courses: HDC4 
+Prof27 is assigned courses: HDC3 
+Prof30 is assigned courses: FDC5 
+
+
+Prof4 is assigned courses: 
+Prof24 is assigned courses: FDC19 
+Prof28 is assigned courses: HDC4 
+Prof8 is assigned courses: FDC3 
+Prof30 is assigned courses: FDC5 
+Prof9 is assigned courses: FDC4 
+Prof17 is assigned courses: FDC12 
+Prof21 is assigned courses: FDC16 
+Prof18 is assigned courses: FDC13 
+Prof14 is assigned courses: FDC9 
+Prof20 is assigned courses: FDC15 
+Prof25 is assigned courses: HDC1 
+Prof5 is assigned courses: 
+Prof27 is assigned courses: HDC3 
+Prof23 is assigned courses: FDC18 
+Prof26 is assigned courses: HDC2 
+Prof22 is assigned courses: FDC17 
+Prof7 is assigned courses: FDC2 
+Prof3 is assigned courses: 
+Prof2 is assigned courses: 
+Prof1 is assigned courses: 
+Prof29 is assigned courses: FDC18 
+Prof16 is assigned courses: FDC11 
+Prof6 is assigned courses: FDC1 
+Prof10 is assigned courses: FDC5 
+Prof19 is assigned courses: FDC14 
+Prof11 is assigned courses: FDC6 
+Prof13 is assigned courses: FDC8 
+Prof15 is assigned courses: FDC10 
+Prof12 is assigned courses: FDC7 
 
 
