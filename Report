@@ -1,0 +1,343 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[normalem]{ulem}
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={DISCO PROJECT},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{\protect\hypertarget{_dvr2dds532db}{}{}\textbf{DISCO PROJECT}}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+Submitted by:-
+
+Vageesha Gupta (2022A7PS1107G)
+
+Aryia Wadekar (2022A7PS0599G)
+
+Aarsh Agrawal (2022A7PS0234G)
+
+\textbf{Problem Statement}
+
+We are given a problem of assigning courses to a user given n number of
+professors in an academic year i.e 2 semesters. Professors are divided
+into three categories X1: handle 0.5 courses per sem, X2:handle 1
+courses per sem, X3: handle 1.5 courses per sem. 0.5 of a course meaning
+the course is shared between 2 profs .
+
+The set of courses to be assigned :
+
+FD:
+
+3 CDC in first year,
+
+4 CDC per sem in 2nd and 3rd year ,
+
+2 FD electives for 2-4th year per sem.
+
+HD:
+
+2 CDC per sem ,(for 1st and second years )
+
+2 electives per sem,
+
+We are assuming a category 3 prof can be assigned maximum 3 courses with
+0.5 load each. And similarly category 2 prof can be assigned maximum 2
+courses with 0.5 load each.
+
+The preference list of a prof can contain maximum 4 FD CDC, 2 HD CDC, 2
+FD Electives, 2 HD electives.
+
+\textbf{Approach:}
+
+Our system operates based on an input file structured as a
+space-separated .txt file, outlining the available courses and the
+professors\textquotesingle{} details. The courses include categories
+such as FD CDCs, HD CDCs, FD electives, and HD electives. The professors
+are defined by their names, categories, the number of courses in their
+preference list, and their preferred courses.
+
+This scenario can be aptly represented as a bipartite graph, where
+professors and courses form distinct sets of vertices. Each course
+possesses a self-constraint that must evaluate to 1, while each
+professor has a self-constraint based on their category.
+
+\textbf{Algorithmic Strategy:}
+
+Our approach involves treating each professor as a variable and their
+preference list as their respective domains. The objective is to iterate
+through these variables, continuously updating domains as assignments
+are made or alternative choices are explored. If at any point a feasible
+assignment is not found, a backtracking mechanism is employed to
+reconsider previous choices and explore alternative options. This
+algorithm remains incomplete as it does not specify the starting
+variable, the initial assignment to choose, or the preferred alternative
+to select first.
+
+\hypertarget{section}{%
+\subsubsection{}\label{section}}
+
+\textbf{Implementation:}
+
+\hypertarget{components}{%
+\subsubsection{\texorpdfstring{\textbf{Components:}}{Components:}}\label{components}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{quote}
+  \textbf{Classes:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    \textbf{Course:} Represents a course with a unique name, a
+    constraint to be satisfied initially set to 1, and a boolean
+    indicating if it\textquotesingle s a CDC or elective.
+    \end{quote}
+  \item
+    \begin{quote}
+    \textbf{Professor:} Represents a professor with a name, a category
+    (\textquotesingle x1\textquotesingle,
+    \textquotesingle x2\textquotesingle, or
+    \textquotesingle x3\textquotesingle), a preference list of courses,
+    a list of assigned courses, a counter for filled courses, and a
+    maximum course load.
+    \end{quote}
+  \end{itemize}
+\item
+  \begin{quote}
+  \textbf{Functions:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    \textbf{checkpref:} Checks if a professor\textquotesingle s
+    preference list includes a specific course.
+    \end{quote}
+  \item
+    \begin{quote}
+    \textbf{readProfessorsFromFile:} Reads professors\textquotesingle{}
+    details from an input file, generates courses based on counts
+    provided, and creates professor objects with their preferences.
+    \end{quote}
+  \item
+    \begin{quote}
+    \textbf{checkCDCSat:} Checks whether CDCs have been sufficiently
+    assigned to professors.
+    \end{quote}
+  \item
+    \begin{quote}
+    \textbf{assignCourses:} Attempts to assign courses to professors
+    based on their preferences and constraints. Uses randomization to
+    diversify assignment possibilities.
+    \end{quote}
+  \item
+    \begin{quote}
+    \textbf{printAssignment:} Prints the final assignment of courses to
+    professors.
+    \end{quote}
+  \end{itemize}
+\item
+  \begin{quote}
+  \textbf{Main Functionality:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    The code reads input data containing information about the number of
+    different types of courses and professors, generates courses
+    accordingly, and assigns courses to professors based on their
+    preferences and constraints.
+    \end{quote}
+  \item
+    \begin{quote}
+    Professors have preference lists with courses they desire, and the
+    code attempts to assign these courses while adhering to their
+    maximum course load constraints.
+    \end{quote}
+  \item
+    \begin{quote}
+    There\textquotesingle s a check to ensure CDCs are adequately
+    assigned before proceeding with elective courses.
+    \end{quote}
+  \end{itemize}
+\end{enumerate}
+
+\hypertarget{implementation-summary}{%
+\subsubsection{\texorpdfstring{\textbf{Implementation
+Summary:}}{Implementation Summary:}}\label{implementation-summary}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  \begin{quote}
+  \textbf{Reading Input:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    Reads course counts and professors\textquotesingle{} details from an
+    input file.
+    \end{quote}
+  \item
+    \begin{quote}
+    Generates courses based on the counts and creates professor objects
+    with their preferences.
+    \end{quote}
+  \end{itemize}
+\item
+  \begin{quote}
+  \textbf{Course Assignment:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    Randomizes professors\textquotesingle{} preference lists for
+    diversified assignment possibilities.
+    \end{quote}
+  \item
+    \begin{quote}
+    Attempts to assign courses to professors based on their preferences,
+    constraints, and maximum load.
+    \end{quote}
+  \item
+    \begin{quote}
+    Assigns CDCs before elective courses and checks for constraints
+    before making assignments.
+    \end{quote}
+  \end{itemize}
+\item
+  \begin{quote}
+  \textbf{Output:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    Prints the final assignment of courses to professors.
+    \end{quote}
+  \end{itemize}
+\item
+  \begin{quote}
+  \textbf{File Handling:}
+  \end{quote}
+
+  \begin{itemize}
+  \item
+    \begin{quote}
+    Uses file redirection for input and output (freopen) to read from
+    and write to specific files.
+    \end{quote}
+  \end{itemize}
+\end{enumerate}
+
+\textbf{Results under Different Test Cases:}
+
+Case 1: Balanced Assignment:
+
+Professors\textquotesingle{} preferences are well-distributed.
+
+The program ensures a balanced assignment without exceeding constraints.
+
+Case 2: Unbalanced Assignment:
+
+\begin{quote}
+Some professors have limited preferences or constraints that result in
+unbalanced assignments.
+
+The program handles this by maximising assignments based on available
+preferences.
+\end{quote}
+
+Case 3: Constraints Satisfied:
+
+Constraints related to maximum capacities and category preferences are
+satisfied.
+
+The program successfully allocates courses while meeting these
+constraints.
+
+Shortcomings in our code
+
+1.Our code is not able to allot courses to profs in x1 category .
+
+2. The input file must be of the specified format for our code to work .
+It is not flexible.
+
+3.Our code does not implement backtracking as intended by the algorithm
+.
+
+4.Our code is complex in the sense that it uses too many loops and hence
+will have large time complexity.
+
+5.We have not implemented a counter mechanism for the case where our
+code goes into an infinite loop.
+
+6. We did not specifically use a graph data structure but have created a
+logical algorithm which does a similar bi-partite pairing.
+
+Citations:
+
+-We have referred the following sources:
+
+\href{https://youtu.be/Yo-xat4cn8M?si=Xb28pAvH13xhMaU3}{\uline{https://youtu.be/Yo-xat4cn8M?si=Xb28pAvH13xhMaU3}}
+about CSPs.
+
+-We have not used a specific algorithm to approach the problem. Instead
+we came up with our own logic to solve the problem given the
+constraints.
+
+\end{document}
