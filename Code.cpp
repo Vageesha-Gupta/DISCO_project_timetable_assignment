@@ -210,13 +210,13 @@ void assignCourses(vector<Professor>& professors, vector<Course>& courses) {
         }
     }
     
-
+    //electives
     for (auto& prof : professors) {
         if(prof.filled < prof.max){
         // Iterate through professor's preference list
         for (auto& course : prof.preference_list) {//
                 if ( course.constraint > 0 && !course.is_cdc) {
-                    if (prof.filled == 1) {
+                    if (prof.max - prof.filled == 1 ) {
                         prof.assigned_courses.push_back(course);
                         course.constraint -= 1;
                     }
